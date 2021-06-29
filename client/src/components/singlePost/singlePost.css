@@ -1,0 +1,116 @@
+.singlePost{
+    flex: 9;
+}
+
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePostImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.singlePostTitle{
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    margin: 10px;
+}
+
+.singlePostEdit{
+    float: right;
+    font-size: 18px;
+}
+
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child{
+    color: teal;
+}
+
+.singlePostIcon:last-child{
+    color: tomato;
+}
+
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 16px;
+    color:#be9556 ; 
+    justify-content: space-between;
+    font-family: "Varela Round", sans-serif;
+}
+
+.singlePostDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.singlePostTitleInputEdit{
+    margin: 8px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #000;
+    color: lightgray;
+}
+
+.singlePostTitleInputEdit:focus{
+    outline: none;
+}
+
+.singlePostDescEdit{
+    margin: 8px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #000;
+    color: lightgray;
+    line-height: 25px;
+}
+
+.singlePostDescEdit:focus{
+    outline: none;
+}
+.btnWrapper{
+    align-self: flex-end;
+}
+.singlePostBtnUpdate{
+    margin: 8px;
+    color: white;
+    background-color: rgb(30, 187, 16);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    /* align-self: flex-end; */
+}
+
+.singlePostBtnCancel{
+    margin: 8px;
+    color: white;
+    background-color: rgba(204, 122, 74, 0.699);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    /* align-self: flex-end; */
+}

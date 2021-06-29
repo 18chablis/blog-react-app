@@ -1,5 +1,6 @@
 {
   "name": "react-blog",
+  "homepage": "https://chablis-blog-app.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

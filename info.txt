@@ -1,3 +1,0 @@
-
-mongodb+srv://blog-api:RT2D1sBAACkks9H7@cluster0.9belb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
